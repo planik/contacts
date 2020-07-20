@@ -5,6 +5,7 @@
 
   export let contacts
   onMount(() => {
+    //console.info("ContactList#onMount", contacts);
     contactStore.set(contacts)
   })
 </script>
